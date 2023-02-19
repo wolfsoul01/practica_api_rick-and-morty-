@@ -1,11 +1,11 @@
 function Nav() {
-  
-
     return (
-      <h1>Rick and Morty API</h1>
-      
-    )
-  }
+        <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Rick y Morty </a>
+        </div>
+      </nav>
+  )}
   
   export default Nav
   
