@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.tarjeta{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    justify-content: center;
+    
+}
+.tarj{
+    background-color: #0f0d0d;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 3px;
+    margin:3px ;
+    box-shadow: 6px 1px 10px 4px gray;
+}
+.tarj:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    scale: 1.03;
+    box-shadow: 6px 1px 10px 10px gray;
+    
+}
+.mg{
+    margin-bottom: 50px;
+}
+.tarj:hover::before{
+    cursor: pointer;
+    transition: 0.5s;
+    scale: 1;
+    
+}
